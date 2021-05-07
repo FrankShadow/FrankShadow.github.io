@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frankshadow.cn</id>
     <title>FrankShadow</title>
-    <updated>2021-05-07T09:47:36.518Z</updated>
+    <updated>2021-05-07T09:53:12.347Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://frankshadow.cn"/>
     <link rel="self" href="https://frankshadow.cn/atom.xml"/>
@@ -10,6 +10,49 @@
     <logo>https://frankshadow.cn/images/avatar.png</logo>
     <icon>https://frankshadow.cn/favicon.ico</icon>
     <rights>All rights reserved 2021, FrankShadow</rights>
+    <entry>
+        <title type="html"><![CDATA[随笔二]]></title>
+        <id>https://frankshadow.cn/post/sui-bi-er/</id>
+        <link href="https://frankshadow.cn/post/sui-bi-er/">
+        </link>
+        <updated>2021-05-07T09:51:56.000Z</updated>
+        <content type="html"><![CDATA[<p>夕颜照，锣声晚，霸桥折柳人未还，更惹愁肠乱。红尘难，事多繁，欲语轻言泪阑珊，独看斜阳残。<br>
+2016年7月8日</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[随笔]]></title>
+        <id>https://frankshadow.cn/post/sui-bi/</id>
+        <link href="https://frankshadow.cn/post/sui-bi/">
+        </link>
+        <updated>2021-05-07T09:49:27.000Z</updated>
+        <content type="html"><![CDATA[<p>烟雨微寒，小池夜半，离人梦远黄花岸。辗转似呢喃，紧锁朱眉春欲暖。<br>
+静夜阑珊，良霄苦短，碧玉凝脂薄罗衫。酒醒愁肠断，倚楼把伞掩装欢<br>
+2016年9月14日</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ 笑]]></title>
+        <id>https://frankshadow.cn/post/xiao/</id>
+        <link href="https://frankshadow.cn/post/xiao/">
+        </link>
+        <updated>2021-05-07T09:48:43.000Z</updated>
+        <content type="html"><![CDATA[<p>花笑雨沁池，林笑花太痴。<br>
+试问离人泪，落花几时知。<br>
+2017年12月18日</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[无题]]></title>
+        <id>https://frankshadow.cn/post/wu-ti/</id>
+        <link href="https://frankshadow.cn/post/wu-ti/">
+        </link>
+        <updated>2021-05-07T09:47:47.000Z</updated>
+        <content type="html"><![CDATA[<p>流火飞花七月天，布谷声里盼秋寒。<br>
+淅淅懒雨扰夏眠，晓得去年今日夜，佳人何处忆长安。<br>
+2017年7月18日</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[感想]]></title>
         <id>https://frankshadow.cn/post/gan-xiang/</id>
