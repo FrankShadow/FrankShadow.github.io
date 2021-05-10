@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frankshadow.cn</id>
     <title>FrankShadow</title>
-    <updated>2021-05-10T02:57:44.745Z</updated>
+    <updated>2021-05-10T03:02:15.311Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://frankshadow.cn"/>
     <link rel="self" href="https://frankshadow.cn/atom.xml"/>
@@ -20,20 +20,20 @@
 2.打开UserNamexxxxx 没有后缀那个（推荐MT管理器），文本编辑<br>
 3.下面以我自己的存档为例：<br>
 物品修改：搜索物品名称，如硬木hardwood，应该会出现这个<br>
-<name>Hardwood</name><parentSheetIndex>709</parentSheetIndex><specialItem>false</specialItem><SpecialVariable>0</SpecialVariable><DisplayName>Hardwood</DisplayName><Name>Hardwood</Name><strong><Stack>999</Stack></strong><hasBeenInventory>false</hasBeenInventory><tileLocation><X>0</X><Y>0</Y></tileLocation><owner>0</owner><type>Basic</type><canBeSetDown>true</canBeSetDown><canBeGrabbed>true</canBeGrabbed><isHoedirt>false</isHoedirt><isSpawnedObject>false</isSpawnedObject><questItem>false</questItem><questId>0</questId><isOn>true</isOn><fragility>0</fragility><strong><price>15</price></strong><edibility>-300</edibility><strong><stack>999</stack></strong><quality>0</quality><br>
+<code>&lt;name&gt;Hardwood&lt;/name&gt;&lt;parentSheetIndex&gt;709&lt;/parentSheetIndex&gt;&lt;specialItem&gt;false&lt;/specialItem&gt;&lt;SpecialVariable&gt;0&lt;/SpecialVariable&gt;&lt;DisplayName&gt;Hardwood&lt;/DisplayName&gt;&lt;Name&gt;Hardwood&lt;/Name&gt;&lt;Stack&gt;999&lt;/Stack&gt;&lt;hasBeenInventory&gt;false&lt;/hasBeenInventory&gt;&lt;tileLocation&gt;&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;0&lt;/Y&gt;&lt;/tileLocation&gt;&lt;owner&gt;0&lt;/owner&gt;&lt;type&gt;Basic&lt;/type&gt;&lt;canBeSetDown&gt;true&lt;/canBeSetDown&gt;&lt;canBeGrabbed&gt;true&lt;/canBeGrabbed&gt;&lt;isHoedirt&gt;false&lt;/isHoedirt&gt;&lt;isSpawnedObject&gt;false&lt;/isSpawnedObject&gt;&lt;questItem&gt;false&lt;/questItem&gt;&lt;questId&gt;0&lt;/questId&gt;&lt;isOn&gt;true&lt;/isOn&gt;&lt;fragility&gt;0&lt;/fragility&gt;&lt;price&gt;15&lt;/price&gt;&lt;edibility&gt;-300&lt;/edibility&gt;&lt;stack&gt;999&lt;/stack&gt;&lt;quality&gt;0&lt;/quality&gt;</code><br>
 修改数量就直接修改两处stack的数字，我修改为999，超过999，会在背包自动变成两份，最好不要超过9999，price就是价格，随便修改，不过不要超过九千万。<br>
 4.修改货币：<br>
 搜索money，当发现<br>
-<money>88537185</money></player><locations>&lt;GameLocation p3:type=&quot;FarmHouse&quot;<br>
+<code>&lt;money&gt;88537185&lt;/money&gt;&lt;/player&gt;&lt;locations&gt;&lt;GameLocation p3:type=&quot;FarmHouse&quot;</code><br>
 修改money处的数字即可，不要超过九千万。<br>
 以下均未测试，个人猜想，可以尝试<br>
 天气：<br>
 搜索isRaing出现如下<br>
-<isRaining>false</isRaining><isDebrisWeather>false</isDebrisWeather><shippingTax>false</shippingTax><bloomDay>false</bloomDay><isLightning>false</isLightning><isSnowing>false</isSnowing><br>
+<code>&lt;isRaining&gt;false&lt;/isRaining&gt;&lt;isDebrisWeather&gt;false&lt;/isDebrisWeather&gt;&lt;shippingTax&gt;false&lt;/shippingTax&gt;&lt;bloomDay&gt;false&lt;/bloomDay&gt;&lt;isLightning&gt;false&lt;/isLightning&gt;&lt;isSnowing&gt;false&lt;/isSnowing&gt;</code><br>
 想要修改天气，就将对应天气的false修改为true<br>
 人物属性<br>
 搜索方式一样比如幸运值，搜索luck，发现如下<br>
-<dailyLuck>0.04</dailyLuck>，基本修改为50，就是顺风顺水，这里修改的是每日幸运值，只会影响当天，不涉及人物属性，<br>
+<code>&lt;dailyLuck&gt;0.04&lt;/dailyLuck&gt;</code>，基本修改为50，就是顺风顺水，这里修改的是每日幸运值，只会影响当天，不涉及人物属性，<br>
 人物属性由于可能会导致坏档，我就没有测试。</p>
 ]]></content>
     </entry>
