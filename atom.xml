@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://frankshadow.cn</id>
+    <id>https://frankshadow.com</id>
     <title>FrankShadow</title>
-    <updated>2021-05-11T06:55:56.548Z</updated>
+    <updated>2021-05-11T06:57:01.861Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://frankshadow.cn"/>
-    <link rel="self" href="https://frankshadow.cn/atom.xml"/>
+    <link rel="alternate" href="https://frankshadow.com"/>
+    <link rel="self" href="https://frankshadow.com/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://frankshadow.cn/images/avatar.png</logo>
-    <icon>https://frankshadow.cn/favicon.ico</icon>
+    <logo>https://frankshadow.com/images/avatar.png</logo>
+    <icon>https://frankshadow.com/favicon.ico</icon>
     <rights>All rights reserved 2021, FrankShadow</rights>
     <entry>
         <title type="html"><![CDATA[星露谷物语安卓存档修改教程]]></title>
-        <id>https://frankshadow.cn/post/xing-lu-gu-wu-yu-an-zhuo-cun-dang-xiu-gai-jiao-cheng/</id>
-        <link href="https://frankshadow.cn/post/xing-lu-gu-wu-yu-an-zhuo-cun-dang-xiu-gai-jiao-cheng/">
+        <id>https://frankshadow.com/post/xing-lu-gu-wu-yu-an-zhuo-cun-dang-xiu-gai-jiao-cheng/</id>
+        <link href="https://frankshadow.com/post/xing-lu-gu-wu-yu-an-zhuo-cun-dang-xiu-gai-jiao-cheng/">
         </link>
         <updated>2021-05-10T02:30:29.000Z</updated>
         <content type="html"><![CDATA[<p>1.首先你得找到存档（废话），一般情况在目录/sdcard/StardewValley/UserNamexxxxx（username就是游戏角色名，xxx是数字）。<br>
@@ -39,8 +39,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://frankshadow.cn/post/hello-gridea/</id>
-        <link href="https://frankshadow.cn/post/hello-gridea/">
+        <id>https://frankshadow.com/post/hello-gridea/</id>
+        <link href="https://frankshadow.com/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
