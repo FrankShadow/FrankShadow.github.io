@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frankshadow.com</id>
     <title>FrankShadow</title>
-    <updated>2021-05-22T03:42:16.250Z</updated>
+    <updated>2021-06-16T01:26:56.329Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://frankshadow.com"/>
     <link rel="self" href="https://frankshadow.com/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://frankshadow.com/images/avatar.png</logo>
     <icon>https://frankshadow.com/favicon.ico</icon>
     <rights>All rights reserved 2021, FrankShadow</rights>
+    <entry>
+        <title type="html"><![CDATA[关于Excel中使用Countif统计时，结果没有小数的解决办法]]></title>
+        <id>https://frankshadow.com/post/guan-yu-excel-zhong-shi-yong-countif-tong-ji-shi-jie-guo-mei-you-xiao-shu-de-jie-jue-ban-fa/</id>
+        <link href="https://frankshadow.com/post/guan-yu-excel-zhong-shi-yong-countif-tong-ji-shi-jie-guo-mei-you-xiao-shu-de-jie-jue-ban-fa/">
+        </link>
+        <updated>2021-06-16T01:23:17.000Z</updated>
+        <content type="html"><![CDATA[<p>之前做考勤表时发现Countif(C8:AG9,&quot;◆&quot;)/2统计上下午时不会出现小数，后来发现，需要将公式填入后将单元格格式改为文本，就能解决这个问题。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[便携小空调]]></title>
         <id>https://frankshadow.com/post/bian-xi-xiao-kong-diao/</id>
