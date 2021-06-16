@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frankshadow.com</id>
     <title>FrankShadow</title>
-    <updated>2021-06-16T01:26:56.329Z</updated>
+    <updated>2021-06-16T06:49:36.057Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://frankshadow.com"/>
     <link rel="self" href="https://frankshadow.com/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2021, FrankShadow</rights>
     <entry>
         <title type="html"><![CDATA[关于Excel中使用Countif统计时，结果没有小数的解决办法]]></title>
-        <id>https://frankshadow.com/post/guan-yu-excel-zhong-shi-yong-countif-tong-ji-shi-jie-guo-mei-you-xiao-shu-de-jie-jue-ban-fa/</id>
-        <link href="https://frankshadow.com/post/guan-yu-excel-zhong-shi-yong-countif-tong-ji-shi-jie-guo-mei-you-xiao-shu-de-jie-jue-ban-fa/">
+        <id>https://frankshadow.com/post/excel/</id>
+        <link href="https://frankshadow.com/post/excel/">
         </link>
         <updated>2021-06-16T01:23:17.000Z</updated>
         <content type="html"><![CDATA[<p>之前做考勤表时发现Countif(C8:AG9,&quot;◆&quot;)/2统计上下午时不会出现小数，后来发现，需要将公式填入后将单元格格式改为文本，就能解决这个问题。</p>
@@ -33,8 +33,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[星露谷物语安卓存档修改教程]]></title>
-        <id>https://frankshadow.com/post/xing-lu-gu-wu-yu-an-zhuo-cun-dang-xiu-gai-jiao-cheng/</id>
-        <link href="https://frankshadow.com/post/xing-lu-gu-wu-yu-an-zhuo-cun-dang-xiu-gai-jiao-cheng/">
+        <id>https://frankshadow.com/post/StardewValley/</id>
+        <link href="https://frankshadow.com/post/StardewValley/">
         </link>
         <updated>2021-05-10T02:30:29.000Z</updated>
         <content type="html"><![CDATA[<p>1.首先你得找到存档（废话），一般情况在目录/sdcard/StardewValley/UserNamexxxxx（username就是游戏角色名，xxx是数字）。<br>

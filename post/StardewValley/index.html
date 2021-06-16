@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>星露谷物语安卓存档修改教程 | FrankShadow</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://frankshadow.com/favicon.ico?v=1623826173728">
+<link rel="stylesheet" href="https://frankshadow.com/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="1.首先你得找到存档（废话），一般情况在目录/sdcard/StardewValley/UserNamexxxxx（username就是游戏角色名，xxx是数字）。
+2.打开UserNamexxxxx 没有后缀那个（推荐MT管理器），文本编..." />
+    <meta name="keywords" content="游戏" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://frankshadow.com">
+        <img src="https://frankshadow.com/images/avatar.png?v=1623826173728" class="site-logo">
+        <h1 class="site-title">FrankShadow</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="https://frankshadow.com" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://frankshadow.com/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://frankshadow.com/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://frankshadow.com/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      以失望待世界，以希望成星海。
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://frankshadow.com/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">星露谷物语安卓存档修改教程</h2>
+            <div class="post-date">2021-05-10</div>
+            
+              <div class="feature-container" style="background-image: url('https://frankshadow.com/post-images/StardewValley.jpg')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>1.首先你得找到存档（废话），一般情况在目录/sdcard/StardewValley/UserNamexxxxx（username就是游戏角色名，xxx是数字）。<br>
+2.打开UserNamexxxxx 没有后缀那个（推荐MT管理器），文本编辑<br>
+3.下面以我自己的存档为例：<br>
+物品修改：搜索物品名称，如硬木hardwood，应该会出现这个<br>
+<code>&lt;name&gt;Hardwood&lt;/name&gt;&lt;parentSheetIndex&gt;709&lt;/parentSheetIndex&gt;&lt;specialItem&gt;false&lt;/specialItem&gt;&lt;SpecialVariable&gt;0&lt;/SpecialVariable&gt;&lt;DisplayName&gt;Hardwood&lt;/DisplayName&gt;&lt;Name&gt;Hardwood&lt;/Name&gt;&lt;Stack&gt;999&lt;/Stack&gt;&lt;hasBeenInventory&gt;false&lt;/hasBeenInventory&gt;&lt;tileLocation&gt;&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;0&lt;/Y&gt;&lt;/tileLocation&gt;&lt;owner&gt;0&lt;/owner&gt;&lt;type&gt;Basic&lt;/type&gt;&lt;canBeSetDown&gt;true&lt;/canBeSetDown&gt;&lt;canBeGrabbed&gt;true&lt;/canBeGrabbed&gt;&lt;isHoedirt&gt;false&lt;/isHoedirt&gt;&lt;isSpawnedObject&gt;false&lt;/isSpawnedObject&gt;&lt;questItem&gt;false&lt;/questItem&gt;&lt;questId&gt;0&lt;/questId&gt;&lt;isOn&gt;true&lt;/isOn&gt;&lt;fragility&gt;0&lt;/fragility&gt;&lt;price&gt;15&lt;/price&gt;&lt;edibility&gt;-300&lt;/edibility&gt;&lt;stack&gt;999&lt;/stack&gt;&lt;quality&gt;0&lt;/quality&gt;</code><br>
+修改数量就直接修改两处stack的数字，我修改为999，超过999，会在背包自动变成两份，最好不要超过9999，price就是价格，随便修改，不过不要超过九千万。<br>
+4.修改货币：<br>
+搜索money，当发现<br>
+<code>&lt;money&gt;88537185&lt;/money&gt;&lt;/player&gt;&lt;locations&gt;&lt;GameLocation p3:type=&quot;FarmHouse&quot;</code><br>
+修改money处的数字即可，不要超过九千万。<br>
+以下均未测试，个人猜想，可以尝试<br>
+天气：<br>
+搜索isRaing出现如下<br>
+<code>&lt;isRaining&gt;false&lt;/isRaining&gt;&lt;isDebrisWeather&gt;false&lt;/isDebrisWeather&gt;&lt;shippingTax&gt;false&lt;/shippingTax&gt;&lt;bloomDay&gt;false&lt;/bloomDay&gt;&lt;isLightning&gt;false&lt;/isLightning&gt;&lt;isSnowing&gt;false&lt;/isSnowing&gt;</code><br>
+想要修改天气，就将对应天气的false修改为true<br>
+人物属性<br>
+搜索方式一样比如幸运值，搜索luck，发现如下<br>
+<code>&lt;dailyLuck&gt;0.04&lt;/dailyLuck&gt;</code>，基本修改为50，就是顺风顺水，这里修改的是每日幸运值，只会影响当天，不涉及人物属性，<br>
+人物属性由于可能会导致坏档，我就没有测试。</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://frankshadow.com/tag/07us2UIuf/" class="tag">
+                    游戏
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://frankshadow.com/post/hello-gridea/">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
